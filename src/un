@@ -1,0 +1,52 @@
+// // import logo from './logo.svg';
+// import "./App.css";
+// import ReactMapboxGl, { Layer, Feature, Marker, Polyline } from "react-mapbox-gl";
+// import "mapbox-gl/dist/mapbox-gl.css";
+// import { FaMapMarkerAlt } from "react-icons/fa";
+
+// function App() {
+//   const Map = ReactMapboxGl({
+//     accessToken:
+//       "pk.eyJ1IjoibXVzdGFmYTQ3IiwiYSI6ImNrdTVhMm10MTRtZ3ozMm5xOXduank3dmoifQ.werjfk2RgOtDvnb5-YxI6A",
+//   });
+//   return (
+//     <Map
+//       style="mapbox://styles/mapbox/streets-v9"
+//       containerStyle={{
+//         height: "100vh",
+//         width: "100%",
+//       }}
+//       center={{ lat: 24.8607, lng: 67.0011 }}
+//       // Zoom={18}
+//       zoom={[13]}
+//     >
+//        <Polyline points={points} />
+//       {/* <Layer
+//         id="zone"
+//         type="fill"
+//         source={{
+//           type: "geojson",
+//           data: {
+//             type: "Feature",
+//             geometry: {
+//               type: "Polyline",
+//               coordinates: [
+//                 { lat: 24.8607, lng: 67.0011 },
+//                 { lat: 24.8807, lng: 67.1011 },
+//               ],
+//             },
+//           },
+//         }}
+      
+//       /> */}
+//       {/* 'icon-image': `https://toppng.com/uploads/preview/map-marker-icon-600x-map-marker-11562939743ayfahlvygl.png`, */}
+//       <Marker coordinates={{ lat: 24.8607, lng: 67.0011 }} anchor="bottom">
+//         <div>
+//           <FaMapMarkerAlt color="red" size={30} />
+//         </div>
+//       </Marker>
+//     </Map>
+//   );
+// }
+
+// export default App;
